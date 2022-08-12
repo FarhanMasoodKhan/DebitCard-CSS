@@ -31,7 +31,7 @@ body {
 
 
 .credit-card-inner {
-    background-image: url(./blob.svg);
+    background-image: url(/img/blob.svg);
     z-index: 100;
     padding: 30px;
     width: inherit;
