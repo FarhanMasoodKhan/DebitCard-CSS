@@ -31,8 +31,9 @@ body {
 
 
 .credit-card-inner {
-    background-image: url(/img/blob.svg);
-    z-index: 100;
+    background-image: url(/img/orangelogo.png);
+    background-position-x: -160px;
+    background-position-y: -100px;
     padding: 30px;
     width: inherit;
     height: inherit;
