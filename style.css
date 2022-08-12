@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    background: #f5ecec;
+    color: #ffe6cc;
+    text-shadow: 1.2px 1.2px 1px #3c3939;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+
+.credit-card-wrap {
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 285px;
+    position: fixed;
+    border-radius: 20px;
+    background: #F07B35;
+    margin-left: -225px;
+    margin-top: -142.5px;
+    background: -webkit-linear-gradient(to left, #EF7136, #F07B35);
+    background: linear-gradient(to left, #f55004, #F07B35);
+}
+
+
+.credit-card-inner {
+    background-image: url(./blob.svg);
+    z-index: 100;
+    padding: 30px;
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+
+.credit-font {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card-logo-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nayapay-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nayapay-light-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E9E9E9;
+}
+
+.nayapay-dark-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f1ededcf;
+}
+
+
+
+.sim-wifi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sim-icon {
+    width: 65px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.wifi-icon {
+    width: 65px;
+    height: 40px;
+    transform: rotate(90deg);
+}
+
+
+.credit-card-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+
+
+/*  */
+
+
+.valid-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #dbd5d5;
+    text-shadow: 1.2px 1.2px 1px #3c3939;
+    padding-top: 10px;
+}
+
+.valid-text-box {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-right: 5px;
+}
+
+.valid-text {
+    font-size: 9px;
+    font-weight: 600;
+    padding-right: 4px;
+}
+
+.arrow-right {
+    font-size: 20px;
+}
+
+.valid-date-box {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.valid-MY {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.valid-dates {
+    align-self: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/*  */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.credit-author {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.credit-visa-img {
+    width: 60px;
+    height: 18px;
+    float: right;
+}
